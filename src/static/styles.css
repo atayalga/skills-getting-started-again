@@ -80,6 +80,23 @@ section h3 {
   list-style-type: disc;
 }
 
+.participants-list {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.delete-icon {
+  color: #c62828;
+  cursor: pointer;
+  font-weight: bold;
+  margin-left: 10px;
+  font-size: 16px;
+}
+
+.delete-icon:hover {
+  color: #b71c1c;
+}
+
 .activity-card li {
   margin-bottom: 5px;
   color: #555;
